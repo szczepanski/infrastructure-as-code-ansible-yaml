@@ -1,4 +1,4 @@
-
+```yml yaml
 #run 1x ec2 ubuntu nano server (playbook 1) and then playbook 2  - install docker repo, run sample container - simple web server accessible via http://54.173.255.8:8000/ or other public IP
 #ansible-playbook deploy-hellonode.yml  
 #run 10 ec2  servers 
@@ -195,3 +195,4 @@ changed: [52.54.213.170]
 PLAY RECAP **************************************************************************************************************************************
 52.54.213.170              : ok=8    changed=7    unreachable=0    failed=0   
 localhost                  : ok=5    changed=2    unreachable=0    failed=0  
+```
